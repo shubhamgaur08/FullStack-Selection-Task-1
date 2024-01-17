@@ -1,0 +1,44 @@
+.gradient-custom-2 {
+    font-weight: bold;
+    border: 1px solid rgb(50, 49, 49);
+   
+    /* fallback for old browsers */
+   
+    color: rgb(50, 49, 49);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #cca42b, #cd317f);
+    }
+    .gradient-custom-1{
+        background: linear-gradient(to right, #e2b631, #c2387d);
+        font-weight: bold;
+        color:rgb(50, 49, 49);
+        border: 1px solid rgb(50, 49, 49);
+        
+    }
+
+    .title{
+        color: #dd3675;
+        font-weight: bold;
+      
+    }
+.title2{
+    color: #dd3675;
+} .title1{
+    color: #79a41b;
+    margin-left: 7px;
+}
+    .container{
+      
+        
+    }
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
